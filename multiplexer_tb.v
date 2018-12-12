@@ -16,7 +16,7 @@ module multiplexer_tb;
 
 
   multiplexer DUT ( 
-        .PIXEL_CLK(pixel_clk),       // Pixel clock: 25Mhz (or 25.125MHz) for VGA
+        .PIXEL_CLK(pixel_clk),
         .row0(5'b11111),
         .row1(5'b00000),
         .row2(5'b10001),
