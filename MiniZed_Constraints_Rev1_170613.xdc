@@ -138,10 +138,10 @@ set_property PACKAGE_PIN N14 [get_ports {PMOD1_D3_N     }];  # "N14.PMOD1_D3_N" 
 # PL Pmod #2 using Samtec Connectors
 # ---------------------------------------------------------------------------- 
 # Bank 34
-set_property PACKAGE_PIN P13 [get_ports {O_anode[1]     }];  # "P13.PMOD2_D0_P" Pin 1
-set_property PACKAGE_PIN P14 [get_ports {O_anode[0]     }];  # "P14.PMOD2_D0_N" Pin 2
-set_property PACKAGE_PIN N11 [get_ports {O_anode[3]     }];  # "N11.PMOD2_D1_P" Pin 3
-set_property PACKAGE_PIN N12 [get_ports {O_anode[2]     }];  # "N12.PMOD2_D1_N" Pin 4
+set_property PACKAGE_PIN P13 [get_ports {O_anode[0]     }];  # "P13.PMOD2_D0_P" Pin 1
+set_property PACKAGE_PIN P14 [get_ports {O_anode[1]     }];  # "P14.PMOD2_D0_N" Pin 2
+set_property PACKAGE_PIN N11 [get_ports {O_anode[2]     }];  # "N11.PMOD2_D1_P" Pin 3
+set_property PACKAGE_PIN N12 [get_ports {O_anode[3]     }];  # "N12.PMOD2_D1_N" Pin 4
 set_property PACKAGE_PIN P15 [get_ports {O_anode[4]     }];  # "P15.PMOD2_D2_P" Pin 7
 set_property PACKAGE_PIN R15 [get_ports {PMOD2_D2_N     }];  # "R15.PMOD2_D2_N" Pin 8
 set_property PACKAGE_PIN R12 [get_ports {PMOD2_D3_P     }];  # "R12.PMOD2_D3_P" Pin 9

@@ -12,7 +12,7 @@ module multiplexer(
     output wire [4:0] O_cathode         // vertical sync output
     );
 
-localparam constantNumber = 1000000; //100MHz becomes 100Hz
+localparam constantNumber = 1000; //100MHz becomes 100KHz
 reg [31:0] count = 0;
 reg [2:0] row = 0;
  
